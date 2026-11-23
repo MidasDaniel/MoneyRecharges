@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Money RECHARGES OFFICIAL</title>
+<style>
+:root{--bg:#0b0b14;--card:#171728;--tx:#f2f2fa;--mut:#9a9ab5;--ac:#ffb400;--ac2:#ff3d71;--ok:#22c55e;--no:#ef4444;--bd:#2a2a44;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme=light]{--bg:#f2f2fa;--card:#fff;--tx:#161626;--mut:#666680;--bd:#dcdcee;color-scheme:light}
+@media (prefers-color-scheme:light){:root:not([data-theme=dark]){--bg:#f2f2fa;--card:#fff;--tx:#161626;--mut:#666680;--bd:#dcdcee;color-scheme:light}}
+*{box-sizing:border-box}html,body{margin:0}body{background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding-bottom:70px;max-width:620px;margin:auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);display:flex;align-items:center;justify-content:space-between;padding:10px 12px;border-bottom:1px solid var(--bd)}
+.brand{font-weight:900;font-size:17px;background:linear-gradient(90deg,#ffb400,#ff3d71,#7c5cff,#ffb400);background-size:300%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sh 4s linear infinite;text-shadow:0 0 18px #ffb40055}
+@keyframes sh{to{background-position:300% 0}}
+.tb{display:flex;gap:6px}.cb{width:34px;height:34px;border-radius:50%;border:1px solid var(--bd);background:var(--card);color:var(--tx);font-size:15px;cursor:pointer}
+main{padding:12px}.card{background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:14px;margin-bottom:12px}
+.hero{background:linear-gradient(135deg,#ff3d71,#7c5cff,#ffb400);background-size:200%;animation:sh 6s linear infinite;color:#fff;text-align:center;padding:22px 14px}
+.hero h2{margin:0 0 4px}.msgs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.msgs div{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:10px 6px;text-align:center;font-size:12px;font-weight:600}
+.btn{display:block;width:100%;border:0;border-radius:12px;padding:12px;font-weight:700;font-size:15px;background:linear-gradient(90deg,var(--ac),var(--ac2));color:#fff;cursor:pointer;margin-top:8px}
+.btn.s{background:var(--card);color:var(--tx);border:1px solid var(--bd)}.btn.sm{display:inline-block;width:auto;padding:6px 10px;font-size:12px;margin:2px}.btn:disabled{opacity:.4}
+input,select,textarea{width:100%;padding:11px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);font-size:15px;margin-top:6px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.mut{color:var(--mut);font-size:12px}
+.offer{display:flex;justify-content:space-between;padding:12px;border:1px solid var(--bd);border-radius:12px;margin-top:8px;cursor:pointer;background:var(--bg)}
+.live{display:flex;gap:8px}.live>div{flex:1;text-align:center}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);animation:pu 1s infinite}
+@keyframes pu{50%{opacity:.2}}
+nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:620px;display:flex;background:var(--card);border-top:1px solid var(--bd);padding-bottom:env(safe-area-inset-bottom,0px);z-index:5}
+nav button{flex:1;background:none;border:0;color:var(--mut);padding:9px 0;font-size:11px;cursor:pointer}nav button.on{color:var(--ac);font-weight:800}nav b{display:block;font-size:18px}
+.md{position:fixed;inset:0;background:#000b;z-index:20;display:flex;align-items:flex-end;justify-content:center}
+.md>div{background:var(--bg);width:100%;max-width:620px;max-height:90%;overflow:auto;border-radius:20px 20px 0 0;padding:16px}
+.full{position:fixed;inset:0;z-index:30;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;background:radial-gradient(circle at 50% 30%,#2b1b5e,#0b0b14);color:#fff}
+.full.ok{background:radial-gradient(circle at 50% 30%,#0f7a3c,#04170c)}.full.no{background:radial-gradient(circle at 50% 30%,#8a1c1c,#1a0505)}
+.ring{width:120px;height:120px;border-radius:50%;border:6px solid #ffffff22;border-top-color:var(--ac);border-right-color:var(--ac2);animation:rot 1s linear infinite;box-shadow:0 0 40px #ff3d7188;margin-bottom:18px}
+@keyframes rot{to{transform:rotate(360deg)}}
+.big{width:120px;height:120px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:60px;margin-bottom:18px;animation:pop .6s ease,glow 1.5s infinite}
+.ok .big{background:var(--ok)}.no .big{background:var(--no)}
+@keyframes pop{from{transform:scale(0)}}@keyframes glow{50%{box-shadow:0 0 50px #fff8}}
+.sum{background:#ffffff14;border-radius:14px;padding:12px 18px;margin:12px 0;text-align:left;font-size:14px;line-height:1.7}
+.tag{padding:3px 9px;border-radius:99px;font-size:11px;font-weight:700;color:#fff}.p{background:#d99a00}.a{background:var(--ok)}.r{background:var(--no)}
+.bot{animation:fl 2s ease-in-out infinite;filter:drop-shadow(0 0 12px #7c5cff)}@keyframes fl{50%{transform:translateY(-5px)}}
+.chat{height:220px;overflow:auto;background:var(--card);border-radius:12px;padding:8px;margin-top:8px}.chat p{margin:6px 0;padding:8px 10px;border-radius:12px;max-width:85%;font-size:14px}.chat .u{background:var(--ac2);color:#fff;margin-left:auto}.chat .b{background:var(--bd)}
+.star{font-size:24px;cursor:pointer;color:#888}.star.on{color:var(--ac)}.av{width:84px;height:84px;border-radius:50%;object-fit:cover;background:var(--bd);display:block;margin:auto}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin-bottom:10px}.tabs button{white-space:nowrap}
+.toast{position:fixed;top:70px;left:50%;transform:translateX(-50%);background:#000d;color:#fff;padding:10px 16px;border-radius:99px;z-index:50;font-size:13px}
+</style></head><body><div id="app"></div>
+<script>
+const ADMIN='alaindanielpochedugrot@gmail.com';
+let mem={};const ls={g(k){try{return localStorage.getItem(k)}catch(e){return mem[k]}},s(k,v){try{localStorage.setItem(k,v)}catch(e){mem[k]=v}}};
+const offs=[[110,270],[110,540],[341,810],[572,1350],[1166,2700],[2398,5400],[6160,15000]].map((x,i)=>({id:'o'+i,game:'Free Fire',d:x[0],s:x[1]}));
+const def={users:[],orders:[],reviews:[],me:null,offers:offs,cfg:{wa1:'58693361',wa2:'',group:'',channel:'',cp:300,phone:'58693361',card:'Configura la tarjeta en Admin',cphone:'58693361',usdt:'Configura la dirección USDT en Admin',notice:'Bienvenido a Money RECHARGES OFFICIAL.'},theme:''};
+let D;try{D=JSON.parse(ls.g('mr')||'null')}catch(e){}D=Object.assign({},def,D||{});D.cfg=Object.assign({},def.cfg,D.cfg);
+const save=()=>ls.s('mr',JSON.stringify(D));const $=s=>document.querySelector(s);
+const h=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const U=()=>D.users.find(u=>u.email===D.me);const isAdm=()=>U()&&(U().email===ADMIN||U().admin);
+let tab='home',atab='cli',ovId=null;
+function theme(t){D.theme=t;document.documentElement.dataset.theme=t;save()}
+if(D.theme)document.documentElement.dataset.theme=D.theme;
+function toast(t){const e=document.createElement('div');e.className='toast';e.textContent=t;document.body.append(e);setTimeout(()=>e.remove(),2200)}
+function modal(html){closeM();const m=document.createElement('div');m.className='md';m.id='mdl';m.onclick=e=>{if(e.target===m)closeM()};m.innerHTML='<div>'+html+'</div>';document.body.append(m)}
+function closeM(){const m=$('#mdl');if(m)m.remove()}
+function copy(t){try{navigator.clipboard.writeText(t)}catch(e){}toast('Copiado')}
+const st=s=>s=='ok'?'<span class="tag a">Aceptado</span>':s=='no'?'<span class="tag r">Rechazado</span>':'<span class="tag p">En revisión</span>';
+const fmt=t=>new Date(t).toLocaleString('es');
+const credCost=s=>Math.ceil(s/D.cfg.cp);
+
+/* AUTH */
+function auth(reg){document.body.classList.add('x');$('#app').innerHTML=`<main style="padding-top:40px"><div class="card hero"><h2 class="brand" style="font-size:24px">Money RECHARGES OFFICIAL</h2>💎 Recargas de diamantes</div><div class="card"><h3>${reg?'Crear cuenta':'Iniciar sesión'}</h3>${reg?'<input id="n" placeholder="Nombre"><input id="t" placeholder="Número (opcional)">':''}<input id="e" type="email" placeholder="Correo"><input id="p" type="password" placeholder="Contraseña"><button class="btn" onclick="${reg?'doReg()':'doLog()'}">${reg?'Registrarme':'Entrar'}</button><button class="btn s" onclick="auth(${!reg})">${reg?'Ya tengo cuenta':'Crear una cuenta'}</button></div></main>`}
+function doLog(){const e=$('#e').value.trim().toLowerCase(),p=$('#p').value,u=D.users.find(u=>u.email===e&&u.pass===p);if(!u)return toast('Correo o contraseña incorrectos');if(u.ban)return toast('Cuenta baneada');D.me=e;save();render()}
+function doReg(){const n=$('#n').value.trim(),e=$('#e').value.trim().toLowerCase(),p=$('#p').value;if(!n||!e||p.length<4)return toast('Completa nombre, correo y contraseña (mín. 4)');if(D.users.some(u=>u.email===e))return toast('Ese correo ya existe');D.users.push({name:n,phone:$('#t').value.trim(),email:e,pass:p,cr:0,ban:false,admin:false,av:''});D.me=e;save();render()}
+function logout(){D.me=null;save();auth()}
+
+/* LAYOUT */
+function render(){if(!U())return auth();const nv=[['home','🏠','Principal'],['ord','📦','Pedidos'],['wal','💰','Wallet'],['per','👤','Perfil']];if(isAdm())nv.push(['adm','🛠️','Admin']);
+$('#app').innerHTML=`<header><span class="brand">Money RECHARGES OFFICIAL</span><div class="tb"><button class="cb" onclick="theme(document.documentElement.dataset.theme=='light'?'dark':'light')" title="Tema">🌓</button><button class="cb" onclick="go('home')" title="Tienda">🏪</button><button class="cb" onclick="modal('<h3>🔔 Avisos</h3><p>'+h(D.cfg.notice)+'</p>')" title="Avisos">🔔</button><button class="cb" onclick="modal('<h3>⭐ Créditos</h3><p>Money RECHARGES OFFICIAL — recargas rápidas y seguras de diamantes.</p><p class=mut>Creada por Alain Daniel.</p>')" title="Créditos">⭐</button></div></header><main id="v"></main><nav>${nv.map(n=>`<button class="${tab==n[0]?'on':''}" onclick="go('${n[0]}')"><b>${n[1]}</b>${n[2]}</button>`).join('')}</nav>`;
+({home,ord:orders,wal:wallet,per:profile,adm:admin})[tab]()}
+function go(t){tab=t;render();scrollTo(0,0)}
+
+/* HOME */
+function home(){const del=D.orders.filter(o=>o.type=='rec'&&o.status=='ok'),last=del[del.length-1],games=[...new Set(D.offers.map(o=>o.game))];
+const avg=D.reviews.length?(D.reviews.reduce((a,r)=>a+r.s,0)/D.reviews.length).toFixed(1):'–';
+$('#v').innerHTML=`<div class="card hero"><h2>¡Bienvenido, ${h(U().name)}! 💎</h2>Recarga tus diamantes en minutos</div>
+<div class="msgs"><div>⚡ Recargas en menos de 15 minutos</div><div>🔒 Rápidos y seguros</div><div>💸 Los mejores precios</div></div><br>
+${games.map(g=>`<div class="card" style="cursor:pointer;border-color:var(--ac)" onclick="offersM('${h(g)}')"><div class="row"><div><b>🔥 Oferta ${h(g)}</b><div class="mut">Toca para ver las ofertas</div></div><span style="font-size:32px">💎</span></div></div>`).join('')}
+<div class="card"><div class="row"><b><span class="dot"></span> En vivo</b></div><div class="live" style="margin-top:8px"><div><div style="font-size:26px;font-weight:900">${del.length}</div><div class="mut">Recargas entregadas</div></div><div><div style="font-weight:700">${last?'💎 '+last.d+' · ID ****'+h(String(last.gid).slice(-3)):'Aún sin entregas'}</div><div class="mut">Última entregada</div></div></div></div>
+<div class="card"><b>Referencias</b> <span class="mut">⭐ ${avg} (${D.reviews.length})</span><div id="stars" style="margin:6px 0">${[1,2,3,4,5].map(i=>`<span class="star" onclick="rs=${i};stars()">★</span>`).join('')}</div><textarea id="rt" rows="2" placeholder="Escribe tu referencia"></textarea><button class="btn" onclick="addRef()">Enviar referencia</button>${D.reviews.slice(-8).reverse().map(r=>`<div style="border-top:1px solid var(--bd);margin-top:8px;padding-top:6px"><b>${h(r.n)}</b> <span style="color:var(--ac)">${'★'.repeat(r.s)}</span><div>${h(r.t)}</div></div>`).join('')}</div>
+<button class="btn" onclick="roxi()">¿Necesitas ayuda?</button><br>
+<div class="card"><b>Contacta con nuestro soporte</b>${wa(D.cfg.wa1,'WhatsApp 1')}${wa(D.cfg.wa2,'WhatsApp 2')}</div>
+<div class="card"><b>Sé parte de nuestra comunidad</b>${lk(D.cfg.group,'👥 Grupo')}${lk(D.cfg.channel,'📢 Canal')}</div>`;rs=0}
+let rs=0;function stars(){document.querySelectorAll('#stars .star').forEach((e,i)=>e.classList.toggle('on',i<rs))}
+function addRef(){const t=$('#rt').value.trim();if(!rs||!t)return toast('Pon estrellas y texto');D.reviews.push({n:U().name,s:rs,t});save();home()}
+const wa=(n,l)=>n?`<a href="https://wa.me/${h(String(n).replace(/\D/g,''))}" target="_blank"><button class="btn s">💬 ${l}: ${h(n)}</button></a>`:'';
+const lk=(u,l)=>u?`<a href="${h(u)}" target="_blank" rel="noopener"><button class="btn s">${l}</button></a>`:`<button class="btn s" disabled>${l} (próximamente)</button>`;
+function offersM(g){modal(`<h3>🔥 ${h(g)}</h3>${D.offers.filter(o=>o.game==g).map(o=>`<div class="offer" onclick="buy('${o.id}')"><b>💎 ${o.d} 💎</b><b>${o.s} Saldo Móvil 📱</b></div>`).join('')}`)}
+function roxi(){modal(`<div style="text-align:center"><svg class="bot" width="64" height="64" viewBox="0 0 64 64"><rect x="12" y="18" width="40" height="32" rx="10" fill="#7c5cff"/><circle cx="25" cy="33" r="5" fill="#fff"/><circle cx="39" cy="33" r="5" fill="#fff"/><rect x="26" y="42" width="12" height="3" rx="1.5" fill="#fff"/><line x1="32" y1="18" x2="32" y2="8" stroke="#ffb400" stroke-width="3"/><circle cx="32" cy="7" r="4" fill="#ff3d71"/></svg><h3 style="margin:4px">Hablar con Roxi</h3><div class="mut">Asistente IA de la web</div></div><div class="chat" id="ch"><p class="b">¡Hola! Soy Roxi 🤖 ¿En qué te ayudo?</p></div><div class="row"><input id="rq" placeholder="Escribe tu pregunta" onkeydown="if(event.key=='Enter')ask()"><button class="btn sm" onclick="ask()">➤</button></div>`)}
+function ask(){const q=$('#rq').value.trim();if(!q)return;$('#rq').value='';const c=$('#ch'),l=q.toLowerCase();c.innerHTML+=`<p class="u">${h(q)}</p>`;
+const r=/tiempo|demor|tard|minuto/.test(l)?'Las recargas se entregan en menos de 15 minutos tras revisar tu pago.':/pago|pagar|método|metodo/.test(l)?'Puedes pagar con Saldo Móvil, Transferencia bancaria, USDT o Créditos MR.':/credit|wallet|deposit/.test(l)?`En Wallet puedes depositar créditos: cada 1 crédito vale ${D.cfg.cp} de saldo (mínimo 1).`:/id/.test(l)?'Tu ID es el número de tu perfil dentro de Free Fire.':/preci|oferta|cuant/.test(l)?'Toca la oferta de Free Fire en Principal para ver todos los precios.':/soporte|ayuda|humano|whats/.test(l)?'Puedes escribir a nuestro soporte por WhatsApp desde Principal.':'No estoy segura, pero nuestro soporte por WhatsApp te ayudará enseguida 💬';
+setTimeout(()=>{c.innerHTML+=`<p class="b">${h(r)}</p>`;c.scrollTop=1e5},400);c.scrollTop=1e5}
+
+/* COMPRA / PAGO */
+function buy(id){const o=D.offers.find(x=>x.id==id);modal(`<h3>💎 ${o.d} — ${o.s} Saldo Móvil</h3><input id="gid" inputmode="numeric" placeholder="ID del jugador"><button class="btn" onclick="gid=$('#gid').value.trim();if(!gid)return toast('Pon el ID');pay({type:'rec',d:o.d,s:o.s,game:'${h(o.game)}',gid:gid,cr:true})">Enviar</button>`)}
+let gid='';
+function pay(o){o.u=credCost(o.s);modal(`<h3>Método de pago</h3><div class="mut">${o.type=='rec'?'Recarga '+o.d+' 💎 · ID '+h(o.gid):'Depósito de '+o.u+' créditos'}</div>${[['sm','📱 Saldo Móvil'],['bk','🏦 Transferencia bancaria'],['us','💲 USDT'],['cr','🪙 Créditos']].filter(m=>m[0]!='cr'||o.cr).map(m=>`<button class="btn s" onclick='pm(${JSON.stringify(o)},"${m[0]}")'>${m[1]}</button>`).join('')}`)}
+const cp=(t)=>`<div class="row card" style="margin:8px 0"><b style="word-break:break-all">${h(t)}</b><button class="btn sm" onclick="copy('${h(t).replace(/'/g,'')}')">Copiar</button></div>`;
+function pm(o,m){const c=D.cfg;let b='';
+if(m=='sm')b=`<div class="mut">Envía saldo a:</div>${cp(c.phone)}<div class="mut">Monto exacto</div><h2>${o.s} Saldo Móvil</h2><input id="f1" placeholder="Número desde donde envías">${fl()}`;
+if(m=='bk')b=`<div class="mut">Tarjeta a transferir:</div>${cp(c.card)}<div class="mut">Monto exacto</div><h2>${o.s} CUP</h2><div class="mut">Móvil a confirmar:</div>${cp(c.cphone)}<input id="f1" placeholder="Tu número de móvil">${fl()}`;
+if(m=='us')b=`<div class="mut">Dirección USDT:</div>${cp(c.usdt)}<div class="mut">Monto exacto</div><h2>${o.u} USDT</h2><input id="f1" placeholder="HASH de la transferencia">`;
+if(m=='cr'){const ok=U().cr>=o.u;b=`<div class="mut">Tu saldo</div><h2>${U().cr} MR</h2><div class="mut">Precio (igual que USDT)</div><h2>${o.u} MR</h2>${ok?'':'<p style="color:var(--no)">Créditos insuficientes</p>'}<input type="hidden" id="f1" value="creditos">`;o.dis=!ok}
+modal(`<h3>${({sm:'Saldo Móvil',bk:'Transferencia bancaria',us:'USDT',cr:'Créditos'})[m]}</h3>${b}<button class="btn" ${o.dis?'disabled':''} onclick='sub(${JSON.stringify(o)},"${m}")'>Enviar a revisión</button>`)}
+let pf='';const fl=()=>`<input type="file" accept="image/*" onchange="pf=this.files[0]?this.files[0].name:''">`;
+function sub(o,m){const f=$('#f1').value.trim(),needF=m!='cr';if(needF&&!f)return toast('Completa los datos del pago');if((m=='sm'||m=='bk')&&!pf)return toast('Adjunta la captura');
+if(m=='cr'){if(U().cr<o.u)return;U().cr-=o.u}
+const ord={id:Date.now(),type:o.type,email:D.me,gid:o.gid||'',d:o.d||0,s:o.s,u:o.u,game:o.game||'',m:({sm:'Saldo Móvil',bk:'Transferencia bancaria',us:'USDT',cr:'Créditos'})[m],ref:f,proof:pf,status:'p',ts:Date.now()};pf='';D.orders.push(ord);save();closeM();overlay(ord.id)}
+const odesc=o=>o.type=='rec'?`💎 ${o.d} ${o.game}<br>ID: ${h(o.gid)}`:`🪙 Depósito de ${o.u} créditos`;
+function overlay(id){ovId=id;const o=D.orders.find(x=>x.id==id),e=$('#ov')||document.createElement('div');e.id='ov';const s=o.status;e.className='full '+(s=='ok'?'ok':s=='no'?'no':'');
+e.innerHTML=(s=='p'?'<div class="ring"></div><h2>Pedido en proceso…</h2><div class="mut" style="color:#ddd">Estamos revisando tu pago</div>':s=='ok'?'<div class="big">✓</div><h2>¡Pedido aceptado!</h2>':'<div class="big">✕</div><h2>Pedido rechazado</h2>')+`<div class="sum">${odesc(o)}<br>Valor: ${o.m=='USDT'?o.u+' USDT':o.m=='Créditos'?o.u+' MR':o.s}<br>Método: ${h(o.m)}<br>Pedido #${String(o.id).slice(-6)}</div><button class="btn s" style="max-width:260px" onclick="$('#ov').remove();ovId=null">${s=='p'?'Minimizar':'Cerrar'}</button>`;document.body.append(e)}
+function setSt(id,s){const o=D.orders.find(x=>x.id==id);if(o.status!='p')return;o.status=s;const u=D.users.find(x=>x.email==o.email);if(s=='ok'&&o.type=='dep'&&u)u.cr+=o.u;if(s=='no'&&o.m=='Créditos'&&u)u.cr+=o.u;save();if(ovId==id)overlay(id);admin()}
+
+/* PEDIDOS */
+function orders(){const l=D.orders.filter(o=>o.email==D.me).reverse();$('#v').innerHTML=`<h3>📦 Mis pedidos</h3>${l.length?l.map(o=>`<div class="card" style="cursor:pointer" onclick="overlay(${o.id})"><div class="row"><b>${o.type=='rec'?'💎 '+o.d+' '+h(o.game):'🪙 Depósito '+o.u+' MR'}</b>${st(o.status)}</div><div class="mut">${h(o.m)} · ${fmt(o.ts)}</div></div>`).join(''):'<div class="card mut">Aún no tienes pedidos.</div>'}`}
+
+/* WALLET */
+function wallet(){const d=D.orders.filter(o=>o.email==D.me&&o.type=='dep').reverse().slice(0,8);$('#v').innerHTML=`<div class="card hero"><svg width="70" height="70" viewBox="0 0 70 70"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2a8"/><stop offset="1" stop-color="#ff9d00"/></linearGradient></defs><circle cx="35" cy="35" r="32" fill="url(#g)" stroke="#fff" stroke-width="3"/><circle cx="35" cy="35" r="24" fill="none" stroke="#b36b00" stroke-width="2"/><text x="35" y="43" font-size="22" font-weight="900" text-anchor="middle" fill="#7a4500">MR</text></svg><div style="font-size:38px;font-weight:900">${U().cr} MR</div>Tus créditos · 1 crédito = ${D.cfg.cp}</div>
+<div class="card"><b>Depositar créditos</b><input id="dc" type="number" min="1" value="1" oninput="$('#dt').textContent=Math.max(1,+this.value||1)*D.cfg.cp"><div class="mut">Total a pagar: <b id="dt">${D.cfg.cp}</b> de saldo</div><button class="btn" onclick="const n=Math.floor(+$('#dc').value);if(n<1)return toast('Mínimo 1');pay({type:'dep',s:n*D.cfg.cp,cr:false})">Depositar</button></div>
+<div class="card"><b>Enviar créditos</b><input id="se" type="email" placeholder="Correo del destinatario"><input id="sc" type="number" min="1" placeholder="Cantidad"><button class="btn" onclick="sendC()">Enviar</button></div>
+<div class="card"><b>Últimos depósitos</b>${d.length?d.map(o=>`<div class="row" style="margin-top:8px"><span>🪙 ${o.u} MR <span class="mut">${fmt(o.ts)}</span></span>${st(o.status)}</div>`).join(''):'<div class="mut">Sin depósitos.</div>'}</div>`}
+function sendC(){const e=$('#se').value.trim().toLowerCase(),n=Math.floor(+$('#sc').value),t=D.users.find(u=>u.email==e);if(!t||t.email==D.me)return toast('Destinatario no válido');if(n<1||n>U().cr)return toast('Cantidad no válida');U().cr-=n;t.cr+=n;save();toast('Enviados '+n+' MR');wallet()}
+
+/* PERFIL */
+function profile(){const u=U();$('#v').innerHTML=`<div class="card"><label style="cursor:pointer"><img class="av" src="${u.av||'data:image/svg+xml,'+encodeURIComponent('<svg xmlns=%22http://www.w3.org/2000/svg%22/>')}" alt=""><div class="mut" style="text-align:center">Toca para cambiar foto</div><input type="file" accept="image/*" hidden onchange="avatar(this)"></label><h2 style="text-align:center;margin:6px 0">${h(u.name)}</h2><div class="mut" style="text-align:center">${h(u.email)}</div></div>
+<div class="card"><div class="mut">Nombre</div><input id="pn" value="${h(u.name)}"><div class="mut">Número</div><input id="pt" value="${h(u.phone)}"><button class="btn" onclick="U().name=$('#pn').value.trim()||U().name;U().phone=$('#pt').value.trim();save();toast('Guardado');profile()">Guardar</button></div>
+<div class="card row"><span>🪙 Créditos</span><b>${u.cr} MR</b></div><div class="card row"><span>📦 Pedidos</span><b>${D.orders.filter(o=>o.email==D.me).length}</b></div><button class="btn s" onclick="logout()">Cerrar sesión</button>`}
+function avatar(i){const f=i.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const c=document.createElement('canvas');c.width=c.height=128;c.getContext('2d').drawImage(im,0,0,128,128);U().av=c.toDataURL('image/jpeg',.8);save();profile()};im.src=r.result};r.readAsDataURL(f)}
+
+/* ADMIN */
+function admin(){if(!isAdm()){go('home');return}const T=[['cli','Clientes'],['ofe','Ofertas'],['ped','Pedidos'],['aju','Ajustes']];let b='';
+if(atab=='cli')b=D.users.map((u,i)=>`<div class="card"><b>${h(u.name)}</b> ${u.ban?'<span class="tag r">Baneado</span>':''}${u.admin?'<span class="tag a">Admin</span>':''}<div class="mut">${h(u.email)} · ${u.cr} MR</div>${u.email!=ADMIN?`<button class="btn sm" onclick="D.users[${i}].ban=!D.users[${i}].ban;save();admin()">${u.ban?'Desbanear':'Banear'}</button><button class="btn sm s" onclick="D.users[${i}].admin=!D.users[${i}].admin;save();admin()">${u.admin?'Quitar admin':'Hacer admin'}</button>`:''}</div>`).join('')||'<div class="mut">Sin clientes.</div>';
+if(atab=='ofe')b=D.offers.map((o,i)=>`<div class="card"><input value="${h(o.game)}" onchange="D.offers[${i}].game=this.value;save()" placeholder="Juego"><div class="row"><input type="number" value="${o.d}" onchange="D.offers[${i}].d=+this.value;save()" placeholder="Diamantes"><input type="number" value="${o.s}" onchange="D.offers[${i}].s=+this.value;save()" placeholder="Saldo"></div><button class="btn sm s" onclick="D.offers.splice(${i},1);save();admin()">Eliminar</button></div>`).join('')+`<button class="btn" onclick="D.offers.push({id:'o'+Date.now(),game:'Nuevo juego',d:100,s:200});save();admin()">+ Añadir oferta / juego</button>`;
+if(atab=='ped')b=D.orders.slice().reverse().map(o=>`<div class="card"><div class="row"><b>${o.type=='rec'?'💎 '+o.d+' · ID '+h(o.gid):'🪙 Depósito '+o.u+' MR'}</b>${st(o.status)}</div><div class="mut">${h(o.email)} · ${h(o.m)} · ${fmt(o.ts)}<br>Ref: ${h(o.ref)} ${o.proof?'· 📎 '+h(o.proof):''}</div>${o.status=='p'?`<button class="btn sm" style="background:var(--ok)" onclick="setSt(${o.id},'ok')">Aceptar</button><button class="btn sm" style="background:var(--no)" onclick="setSt(${o.id},'no')">Rechazar</button>`:''}</div>`).join('')||'<div class="mut">Sin pedidos.</div>';
+if(atab=='aju'){const F=[['wa1','WhatsApp soporte 1'],['wa2','WhatsApp soporte 2'],['group','Link del grupo'],['channel','Link del canal'],['cp','Precio de 1 crédito (saldo)'],['phone','Móvil para saldo'],['card','Tarjeta bancaria'],['cphone','Móvil a confirmar'],['usdt','Dirección USDT'],['notice','Aviso']];b=`<div class="card">${F.map(f=>`<div class="mut" style="margin-top:8px">${f[1]}</div><input value="${h(D.cfg[f[0]])}" onchange="D.cfg.${f[0]}=${f[0]=='cp'?'Math.max(1,+this.value||300)':'this.value.trim()'};save();toast('Guardado')">`).join('')}</div>`}
+$('#v').innerHTML=`<h3>🛠️ Admin</h3><div class="tabs">${T.map(t=>`<button class="btn sm ${atab==t[0]?'':'s'}" onclick="atab='${t[0]}';admin()">${t[1]}</button>`).join('')}</div>${b}`}
+
+render();
+</script></body></html>
